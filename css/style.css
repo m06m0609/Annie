@@ -1,0 +1,87 @@
+.about{
+    background: #f8ebe3;
+    padding-bottom: 30px;
+}
+.about p{
+    color: #ca8b60;
+    text-align: center;
+}
+.new{
+    background:#f7f6f4;
+    padding-bottom: 30px;
+}
+.new .h2{
+    color: #ca8b60;
+    text-align: center;
+}
+.media img{
+    height: 150px;
+    width: 150px;
+}
+.media{
+    border-bottom: 1px solid gray;
+    padding: 20px 0 20px 0;
+}
+.service{
+    background:#f8ebe3;
+    padding-bottom: 30px;
+}
+.service .h2{
+    text-align: center;
+    color: burlywood;
+}
+.service .h4{
+    border-bottom: 3px double burlywood;
+}
+.left{
+    float: left;
+}
+.left p{
+    border-bottom: 1px dotted burlywood;
+    display: block;
+    /* width: 300px; */
+}
+.right{
+    float:right;
+}
+.right p{
+    border-bottom: 1px dotted burlywood;
+    display: block;
+    /* width: 40px; */
+}
+.work{
+    background: #f7f6f4;
+    padding-bottom: 30px;
+}
+.work .h2{
+    color: burlywood;
+    text-align:center;
+    padding: 20px 0 20px 0;
+}
+.work a img{
+     height: 40px;
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.box{
+    height: 300px;
+    background-color: #ccc;
+}
+.bg-cover{
+    background-size:cover;
+    background-position: center center;
+}
+.footer{
+    /* height: 60px; */
+    background: #efe2da;
+    padding: 5px;
+}
+.footer p{
+    text-align: center;
+    line-height: 60px;
+}
+.wrap{
+    position: relative;
+}
