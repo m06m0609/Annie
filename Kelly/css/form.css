@@ -1,0 +1,86 @@
+.content{
+  height: auto;
+  padding-bottom: 1em;
+  background-color: #EFE9E7;
+  overflow:auto;
+}
+
+
+.content-logo{
+  /*background-image: url(../img/logo_l.png);
+  background-image: url(../img/logo_l@svg.svg);*/
+  width: 243px;
+  height: 48px;
+  display: block;
+  background-size: contain;
+  margin: 0 auto;
+  margin-top: 50px ;
+  position: relative;
+  color: #3D1101;
+
+}
+.content-logo h3{
+  font-weight: bolder;
+  font-size: 20px;
+  position: absolute;
+  bottom: -25px;
+  left: 52px;
+}
+.login-box{
+  max-width: 300px;
+  border-top: solid 3px #FF5E45;
+  margin: 0 auto;
+  margin-top: 60px;
+  background: #EFE9E7;
+  box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+  box-sizing: border-box;
+  padding: 0 1em 5em 1em;
+  color: #3D1101;
+}
+
+.login-box legend{
+  border: 0px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #3D1101;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bolder;
+}
+.login-box input{
+  width: 100%;
+}
+.login-box input:focus{
+  background-color: #FFF3EE;
+}
+
+
+.login-box .pure-form-stacked .login-box-text{
+  margin-top:15px;
+}
+.login-box a{
+  font-size: 14px;
+  color: #FF5E45;
+  text-decoration:none;
+}
+.login-box a:focus,.login-box a:hover{
+  color: #9F5000;
+}
+
+.login-box button{
+  width: 125px;
+  border-radius: 5px;
+}
+.login-box form{
+  position: relative;
+}
+.Sign-up{
+  position: absolute;
+  bottom: -60px;left: 0px;
+  background: rgba(0,0,0,0.35);
+}
+.Sign-in{
+  position: absolute;
+  bottom: -60px;right: 0px;
+  background: #F56C23;
+}
