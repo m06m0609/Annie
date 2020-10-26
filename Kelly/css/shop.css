@@ -1,0 +1,277 @@
+.content{
+  background-color: #EFE9E7;
+  padding-top: 48px;
+}
+.aside{
+  width: 21%;
+  float: left;
+  margin-left: 2%;
+}
+.aside h3,.aside i{
+  font-size: 20px;
+  color: #3D1101;
+  line-height: 32px;
+}
+.aside i{
+  margin-right: 14px;
+}
+.aside a{
+  display: block;
+  font-size: 16px;
+  color: #3D1101;
+  line-height: 32px;
+  text-decoration:none;
+  border-bottom: 1px solid #3D1101;
+  box-sizing: border-box;
+  padding-left: 8px;
+}
+.aside a:hover,.aside a:focus{
+  background-color: #3D1101;
+  color: #FFF;
+}
+.article{
+  margin-left: 25%;
+  margin-right: 2%;
+}
+.nav{
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+.nav input{
+  margin-left: 1%;
+  margin-right: 0%;
+  width: 59%;
+  height: 30px;
+}
+.nav input:focus{
+  background-color: #ffefd4;
+}
+.nav button{
+  background-color: #3D1101;
+  box-sizing: border-box;
+  height: 34px;
+  width: 34px;
+  border: 0px;
+}
+.nav button>i{
+  color: #fff;
+}
+.nav button:hover,.nav button:focus{
+  background-color: #af7c15;
+}
+.nav-text{
+  position: absolute;
+  bottom: 7px;
+  right: -10px;
+  display: inline-block;
+}
+.nav-text a{
+  font-size: 20px;
+  color: #3D1101;
+  margin-right:20px;
+  display: inline-block;
+  text-decoration:none;
+}
+.nav-text a:hover,.nav-text a:focus{
+  color: #af7c15;
+}
+.nav-a-line{
+  padding-right: 20px;
+  border-right: 1px solid #3D1101;
+}
+
+
+.section{
+  width: auto;
+  height: auto;
+}
+
+.food-box{
+  float: left;
+  width: 31.333333%;
+  min-width: 220px;
+  height: auto;
+  margin:15px 1%;
+  background: #EFE9E7;
+  box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+  text-align: center;
+  padding-bottom: 1em;
+}
+.food-img-1{
+  max-width: 100%;
+  height: 120px;
+  background-image: url(../img/product_1.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  position: relative;
+}
+.food-img-2{
+  max-width: 100%;
+  height: 120px;
+  background-image: url(../img/product_2.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  position: relative;
+}
+.food-img-3{
+  max-width: 100%;
+  height: 120px;
+  background-image: url(../img/product_3.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  position: relative;
+}
+.food-img-4{
+  max-width: 100%;
+  height: 120px;
+  background-image: url(../img/product_4.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  position: relative;
+}
+.love{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+.love i:hover,.love i:focus{
+  color: red;
+}
+
+
+.food-box h4{
+  font-size: 20px;
+  color: #3D1101;
+  margin-top: 1em;
+}
+.food-box h5{
+  font-size: 12px;
+  color: #3D1101;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+.foodbox-line{
+  display: block;
+  width: 91px;
+  height: 1px;
+  background-color: #3D1101;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 30px;
+}
+.price{
+  font-size: 20px;
+  color: #3D1101;
+  display: block;
+  margin-bottom: 13px;
+  color: #3D1101;
+  font-weight: bolder;
+}
+.buy{
+  display: block;
+  width: 90%;
+  line-height:28px;
+  height: 28px;
+  font-size: 16px;
+  font-weight:bold;
+  text-decoration:none;
+  color: #FF5E45;
+  border: 2px solid #FF5E45;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+.buy:hover{
+  background-color: #FF5E45;
+  color: #fff;
+}
+.buy:focus{
+  border: 2px solid #fff;
+}
+
+
+.clear-box{
+  clear: left;
+}
+
+@media(max-width: 768px){
+  .aside{
+  width: 80%;
+  float: none;
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+  .article{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  }
+  .nav{
+  width: 100%;
+  padding-bottom: 2em; 
+  }
+  .nav fieldset{
+  width: 100%;
+  margin: 0 auto;
+  }
+  .nav input{
+  width: 89%;
+  }
+  .nav-text{
+  bottom: -20px;
+  right: 0px;
+  padding-bottom: 1em;
+  }
+
+
+
+  .section{
+  width: 100%;
+  }
+  .food-box{
+  width: 48%;
+  margin:15px 1%;
+  }
+}
+
+@media(max-width: 600px){
+  .aside{
+  width: 94%;
+  float: none;
+  margin-left: 3%;
+  margin-right: 3%;
+  }
+  .article{
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  }
+  .nav{
+  width: 100%; 
+  padding-bottom: 1em; 
+  }
+  .nav input{
+  width: 80%;
+  }
+  .nav-text{
+  bottom: -30px;
+  right: 0px;
+  }
+  .section{
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-bottom: 1em;
+  }
+  .food-box{
+  float: none;
+  width: 300px;
+  margin: 0% auto;
+  margin-top: 15px;
+  }
+}
