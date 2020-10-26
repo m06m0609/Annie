@@ -1,0 +1,343 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+/*以上reset.css*/
+
+
+
+
+
+body {
+  font-family: "微軟正黑體";
+}
+.wrap{
+  max-width: 1024px;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+
+/*頁首*/
+.header{
+  max-width:1024px;
+  height: 56px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.75);
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.logo h1 a{
+  float: left;
+  margin: 16px 42px;
+  background-image: url(../img/logo.png);/*
+  background-image: url(../img/logo_w@svg.svg);*/
+  width: 50px;
+  height: 25px;
+  display: block;
+  background-size: contain;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.header ul{
+  float:right;
+  margin-right: 18px;
+}
+.header li{
+  float: left;
+}
+.header li a{
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  font-weight:bold;
+  text-decoration:none;
+  color: #fff;
+  line-height:56px;
+  height: 56px;
+  width: 62px;
+  text-align: center;
+}
+.header li a:hover{
+  transition-duration: 0.3s;
+  background-color: #222;
+}
+/*漢堡選單*/
+.hamburger{
+  display:none;
+  color:#fff;
+  font-size: 22px;
+  text-decoration:none;
+  line-height:56px;
+  width: 50px;
+  text-align: center;
+  float:right;
+}
+.hamburger:focus{
+  transition-duration: 0.3s;
+  background-color: #222;
+}
+
+
+@media(max-width: 768px){
+  .hamburger{
+  display:block;
+  }
+  .header{
+  background-color:#000; 
+  }
+  .header ul,.header li{
+  float: none;
+  margin: 0px;
+  }
+  .header li a{
+  text-align: center;
+  width: 100%;
+  }
+  .menu{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  position: absolute;
+  top: 56px;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  //z-index: 101;
+  }
+  .show-menu{
+  max-height: 300px;
+  }
+}
+
+
+/*banner廣告*/
+.banner{
+  position: relative;
+  max-width: 100%;
+  height: 420px;
+  background-image: url(../img/header_desktop.png);
+  /*background-image: url(../img/banner.png);*/
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bannerimg1{
+  max-width: 100%;
+  height: auto;
+}
+.bannerimg2{
+  display: none;
+  max-width: 100%;
+  height: auto;
+}
+.maintext{
+  width: 460px;
+  height: auto;
+  padding-bottom: 30px;
+  text-align: center;
+  background: rgba(0,0,0,0.35);
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.maintext h2{
+  font-size: 36px;
+  padding-top: 20px;
+}
+.maintext p{
+  padding-top: 16px;
+  line-height: 1.5;
+}
+.maintext i{
+  padding: 0 5px;
+}
+
+
+@media(max-width: 768px){
+  .banner{
+    margin-top: 56px;
+  }
+  .maintext{
+  width: 300px;
+  height: auto;
+  }
+}
+@media(max-width: 600px){
+  .banner{
+  position: relative;
+  max-width: 100%;
+  height: 420px;
+  background-image: url(../img/header_mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+}
+@media(max-width: 414px){
+  .maintext{
+  width: 300px;
+  }
+  .bannerimg1{
+   display: none;
+  }
+  .bannerimg2{
+   display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*頁尾*/
+.footer{
+  height: auto;
+  background-color: #efe9e7;
+}
+.footer h3{
+  font-size: 24px;
+  color: #3D1101;
+  margin-bottom: 16px;
+}
+.footer p,.footer li{
+  font-size: 16px;
+  color: #3D1101;
+  line-height: 1.3;
+}
+
+.footer li{
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.fotbox1,.fotbox2,.fotbox3{
+  width: 29.33333%;
+  height: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 50px;
+}
+.fotbox1,.fotbox2{
+  float: left;
+}
+.fotbox3{
+  position: relative;
+  height: 107px;
+  display: inline-block;
+  padding-bottom: 50px;
+}
+.logo2{
+  /*background-image: url(../img/logo_l.png);
+  background-image: url(../img/logo_l@svg.svg);*/
+  width: 243px;
+  height: 48px;
+  display: block;
+  background-size: contain;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.fotbox3 span{
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top:71px;
+}
+
+.fotbox3 a{
+  font-size: 36px;
+  margin-left: 10px;
+}
+.fotbox3 i:hover{
+  color:#3D1101;
+}
+.google{
+  color: #DB4437;
+}
+.twitter{
+  color: #41ABE1;
+}
+.facebook{
+  color: #3A5795;
+}
+
+@media(max-width: 768px){
+  .fotbox1,.fotbox2,.fotbox3{
+  width: 90%;
+  height: auto;
+  margin-top: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 30px;
+  }
+  .fotbox1,.fotbox2{
+  float: none;
+  }
+  .fotbox1{
+  padding-top: 50px;
+  }
+  .fotbox3{
+  height: 107px;
+  }
+}
