@@ -1,0 +1,19 @@
+.banner {
+    background: url(../img/bg-2.png);
+    height: 400px;
+    
+}
+.content{
+    padding-top: 50px;
+    background: #ebf4ee;
+    padding-bottom: 50px;
+}
+.content-title p,.content-title h4{
+    text-align: center;
+}
+.content span{
+    font-weight: bold;
+}
+.content .container{
+    border: 1px solid gray;
+}
