@@ -1,0 +1,41 @@
+.banner {
+    background: url(../img/bg-2.png);
+    height: 400px;
+    
+}
+.content{
+    background: #ebf4ee;
+}
+.content h2{
+    text-align: center;
+}
+.name p{
+    text-align: center;
+    border: 3px double #89995e;
+    width: 1110px;
+    height: 100px;
+    line-height: 2.5;
+    background: #f7fbf8;
+    
+}
+.content{
+    padding-top: 20px;
+}
+.content h4{
+    font-size: 18px;
+    display: block;
+    background: #89995e;
+    color: white;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+.content span{
+    border-bottom: 1.5px dotted #89995e;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.content ul li{
+    margin-top: 10px;
+    margin-left: 20px;
+}
