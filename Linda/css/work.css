@@ -1,0 +1,51 @@
+.banner {
+    background: url(../img/bg-2.png);
+    height: 400px;
+    
+}
+.content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #ebf4ee;
+}
+.content h2{
+    text-align: center;
+    color: #89995e;
+    padding-bottom: 30px;
+}
+.content img{
+    width: 340px;
+    height: 250px;
+    padding-bottom: 5px;
+}
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+}
+.content p{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+
+}
+.content p::before,.content p::after{
+    content: "";
+    position: absolute;
+    border: 1px solid #89995e;
+}
+.content p::before{
+    top: 7px;
+    left: 125px;
+    width: 100px;
+    height: 33px;
+} 
+.content p::after{
+    top: 4px;
+    left: 130px;
+    width: 90px;
+    height: 40px;
+}
+.content a,.content a:hover{
+    text-decoration:none;
+    color:black;
+}
