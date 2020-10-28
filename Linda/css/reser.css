@@ -1,0 +1,23 @@
+.banner {
+    background: url(../img/bg-2.png);
+    height: 400px;
+    
+}
+.content{
+    background: #ebf4ee;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.title{
+    padding-bottom: 50px;
+}
+.title p{
+    text-align: center;
+}
+.title span{
+    background: #333333;
+    color: white;
+    padding: 5px;
+    display: inline;
+    margin-left: 43%;
+}
