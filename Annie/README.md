@@ -1,7 +1,7 @@
 #Annie美學網站
 美甲/美睫/霧眉服務
 
-https://m06m0609.github.io/Annie/home
+https://m06m0609.github.io/Annie/
 
 -此網站使用html/css/bootstrap
 
