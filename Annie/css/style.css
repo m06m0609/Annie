@@ -85,3 +85,8 @@
 .wrap{
     position: relative;
 }
+@media(max-width:575px){
+    .media img{
+        display: none;
+    }
+}
